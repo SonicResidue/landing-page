@@ -1,0 +1,200 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 15px 120px 75px 120px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tleft {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: auto;
+    width: 100px;
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+   list-style: none;
+   margin: 10px;
+   padding: 0;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.bleft {
+    width: 711px;
+}
+
+.bold {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.reg {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.button1 button {
+    border: 0;
+}
+
+.shift {
+    height: 250px;
+    width: auto; 
+    border-radius: 10px;
+}
+
+/* main section starts below this line */
+
+
+.asect {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder; /* guide says "bolder" */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.boxes {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.infopic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    font-size: 22px;
+}
+
+.info {
+    height: auto;
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.bsect {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.quote, .sig {
+    width: 1120px;
+}
+
+.quote {
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter; /* guide says "lighter" */
+    font-size: 36px; 
+}
+
+.sig {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: right;
+}
+
+.csect {
+    display: flex;
+    justify-content: center;   
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.action {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    gap: 150px;
+    padding: 40px 80px;
+    border-radius: 10px;
+}
+
+
+.call {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.words {
+    font-size: 20px;
+}
+
+.act-r {
+    display: flex;
+}
+
+.button2 button{
+    display: flex;
+    align-items: center;
+    border-color: #f9faf8;
+    border-style:solid;
+}
+
+/* footer starts below this line */
+
+.footer {
+    background-color:#1f2937;
+    color: #e5e7eb;
+    display: flex;
+    margin-top: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
