@@ -45,11 +45,14 @@ a {
 .bottom {
     display: flex;
     justify-content: space-between;
+    gap: 300px;
     margin-top: 40px;
 }
 
 .bleft {
-    width: 711px;
+    /*width: 711px;*/
+    display: flex;
+    flex-direction: column;
 }
 
 .bold {
@@ -81,7 +84,6 @@ button {
 }
 
 /* main section starts below this line */
-
 
 .asect {
     display: flex;
@@ -127,12 +129,11 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding: 75px 390px;
 }
 
 .quote, .sig {
-    width: 1120px;
+    display: flex;    
 }
 
 .quote {
@@ -140,12 +141,12 @@ button {
     font-style: italic;
     font-weight: lighter; /* guide says "lighter" */
     font-size: 36px; 
+    flex-direction: column;
 }
 
 .sig {
     font-size: 24px;
     font-weight: bold;
-    display: flex;
     justify-content: right;
 }
 
